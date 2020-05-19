@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EnterCustomer</title>
+</head>
+<body>
+    <div>
+        <form action="Submit" method="post">
+
+            <!-- 'name' tag is used to reference element from server side (C# code), 
+                while 'id' is used to reference element from client side (JavaScript code)
+                -->
+            Customer Name <input name="customerNameText" id="customerNameText" type="text" /> <br />
+            Customer Code <input name="customerCodeText" id="customerCodeText" type="text" />
+            
+            <input id="Submit1" type="submit" value="submit" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SomePage</title>
+</head>
+<body>
+    <div> 
+        @TempData["t1"]
+        @{
+            TempData.Keep("t1");
+
+            // or, we can use the peek version in order to have the data be persistent
+            // like:
+            // string str = TempData.Peek("t1");
+            // then we can use that string throughout the view
+        }
+    </div>
+</body>
+</html>

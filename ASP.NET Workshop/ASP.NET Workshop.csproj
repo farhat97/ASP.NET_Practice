@@ -162,6 +162,7 @@
     <Content Include="Views\Home\MyHomePage.cshtml" />
     <Content Include="Views\Customer\Customer.cshtml" />
     <Content Include="Views\Customer\EnterCustomer.cshtml" />
+    <Content Include="Views\Home\SomePage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

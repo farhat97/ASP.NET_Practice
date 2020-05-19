@@ -25,5 +25,12 @@ namespace ASP.NET_Workshop.Controllers
 
             return View("MyHomePage");
         }
+
+        // from lab 7 - test temp data
+        public ActionResult SomePage()
+        {
+            TempData["t1"] = "test";
+            return View();
+        }
     }
 }

@@ -40,6 +40,7 @@ namespace ASP.NET_Workshop.Controllers
 
             // however, if the text boxes are named the same as the properties, you can pass
             // the Customer object as a parameter of the Submit() function
+            // this maps the values automatically
 
             return View("Customer", newCustomer);
         }
